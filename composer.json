@@ -1,5 +1,5 @@
 {
-  "name": "paypal/rest-api-sdk-php",
+  "name": "orcaya/rest-api-sdk-php",
   "description": "PayPal's PHP SDK for REST APIs",
   "keywords": [
     "paypal",
