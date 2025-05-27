@@ -51,7 +51,7 @@ class PayPalLogger extends AbstractLogger
      */
     private $loggerName;
 
-    public function __construct($loggerName, $loggerFile, $loggingLevel = 'INFO')
+    public function __construct($loggerName, $loggerFile = null, $loggingLevel = 'INFO')
     {
         $this->loggerName = $loggerName;
         $this->loggerFile = $loggerFile;
