@@ -93,7 +93,7 @@ class OauthHandler implements IPayPalHandler
             }
         } else {
             // Defaulting to Sandbox
-            $baseEndpoint = PayPalConstants::REST_SANDBOX_ENDPOINT;
+            $baseEndpoint = PayPalConstants::REST_LIVE_ENDPOINT;
         }
 
         $baseEndpoint = rtrim(trim($baseEndpoint), '/') . "/v1/oauth2/token";
