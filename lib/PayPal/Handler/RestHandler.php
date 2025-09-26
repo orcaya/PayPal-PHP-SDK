@@ -118,7 +118,7 @@ class RestHandler implements IPayPalHandler
             }
         } else {
             // Defaulting to Sandbox
-            return PayPalConstants::REST_SANDBOX_ENDPOINT;
+            return PayPalConstants::REST_LIVE_ENDPOINT;
         }
     }
 }
