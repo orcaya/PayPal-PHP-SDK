@@ -1,6 +1,6 @@
 {
   "name": "orcaya/rest-api-sdk-php",
-  "version": "1.0.0"
+  "version": "1.0.0",
   "description": "PayPal's PHP SDK for REST APIs",
   "keywords": [
     "paypal",
@@ -32,4 +32,5 @@
     }
   }
 }
+
 
